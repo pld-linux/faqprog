@@ -6,8 +6,6 @@ Release:	1
 License:	Freeware
 Source0:	ftp://ftp.gnupg.org/pub/gcrypt/contrib/%{name}.pl
 Group:		Applications/Publishing
-Group(de):	Applikationen/Publizieren
-Group(pl):	Aplikacje/Publikowanie
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	perl
 
