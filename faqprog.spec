@@ -5,6 +5,7 @@ Version:	1.22
 Release:	1
 License:	Freeware
 Source0:	ftp://ftp.gnupg.org/pub/gcrypt/contrib/%{name}.pl
+# Source0-md5:	a800102afcc7a5bf826088e6001f8aa6
 Group:		Applications/Publishing
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	perl
