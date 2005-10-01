@@ -4,11 +4,11 @@ Name:		faqprog
 Version:	1.22
 Release:	1
 License:	Freeware
+Group:		Applications/Publishing
 Source0:	ftp://ftp.gnupg.org/pub/gcrypt/contrib/%{name}.pl
 # Source0-md5:	a800102afcc7a5bf826088e6001f8aa6
-Group:		Applications/Publishing
+Requires:	perl-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Requires:	perl
 
 %description
 faqprog is a program converting raw FAQ files into text and HTML
@@ -30,9 +30,9 @@ cp %{SOURCE0} .
 rm -rf $RPM_BUILD_ROOT
 install -D faqprog.pl $RPM_BUILD_ROOT%{_bindir}/faqprog.pl
 
+%clean
+rm -rf $RPM_BUILD_ROOT
+
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-
-%clean
-rm -rf $RPM_BUILD_ROOT
