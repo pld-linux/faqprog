@@ -1,5 +1,5 @@
 Summary:	A FAQ documentation compiler
-Summary(pl.UTF-8):   Kompilator dokumentacji FAQ
+Summary(pl.UTF-8):	Kompilator dokumentacji FAQ
 Name:		faqprog
 Version:	1.22
 Release:	1
