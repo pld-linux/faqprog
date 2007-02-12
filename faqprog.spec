@@ -1,5 +1,5 @@
 Summary:	A FAQ documentation compiler
-Summary(pl):	Kompilator dokumentacji FAQ
+Summary(pl.UTF-8):   Kompilator dokumentacji FAQ
 Name:		faqprog
 Version:	1.22
 Release:	1
@@ -14,12 +14,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 faqprog is a program converting raw FAQ files into text and HTML
 format.
 
-%description -l de
+%description -l de.UTF-8
 faqprog ist ein Programm, der konvertiert raue FAQ-Dateien ins Text-
 und HTML-Format.
 
-%description -l pl
-faqprog jest programem konwertuj±cym surowe pliki FAQ do formatu
+%description -l pl.UTF-8
+faqprog jest programem konwertujÄ…cym surowe pliki FAQ do formatu
 tekstowego i HTML.
 
 %prep
